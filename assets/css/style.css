@@ -1,0 +1,40 @@
+body{
+	/*background-image: url("Background.jpg");*/
+}
+
+.title{
+	color: white;
+	background-color: orange;
+}
+
+.instructions{
+	color: green;
+	background-color: yellow;
+}
+
+.thirdBox{
+	color: purple;
+	background-color: green;
+}
+
+.fourthBox{
+	background-color: blue;
+}
+
+.Ruby{	
+	float: left;
+	border: white 2px;
+}
+
+.Sapphire{
+	float: left;
+}
+
+.Diamond{
+	float: left;
+}
+
+.Emerald{
+	float: left;
+}
+
