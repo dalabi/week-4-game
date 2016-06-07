@@ -1,5 +1,10 @@
 body{
-	/*background-image: url("Background.jpg");*/
+	background-image: url("Background.jpg");
+	background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    background-height: 100%;
 }
 
 .title{
@@ -12,29 +17,33 @@ body{
 	background-color: yellow;
 }
 
-.thirdBox{
-	color: purple;
-	background-color: green;
+#thirdBox{
+	background-color: white;
+	color: purple;	
 }
 
 .fourthBox{
 	background-color: blue;
 }
 
-.Ruby{	
+#Ruby{	
 	float: left;
 	border: white 2px;
 }
 
-.Sapphire{
+#Sapphire{
 	float: left;
 }
 
-.Diamond{
+#Diamond{
 	float: left;
 }
 
-.Emerald{
+#Emerald{
 	float: left;
 }
 
+#totalScore{
+	background-color: red;
+	color: white;
+}
